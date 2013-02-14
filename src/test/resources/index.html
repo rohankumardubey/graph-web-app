@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Lab</title>
+  <script src="/neo4j/cypher.js"></script>
+</head>
+<body>
+
+
+<script type="text/javascript">
+  cypher( "START root=node(0) RETURN root", {}, function ( result )
+  {
+    console.log( result );
+  } );
+</script>
+
+</body>
+</html>
